@@ -3,7 +3,7 @@
 On Ubuntu, the dependencies can be installed with the command:
 
     sudo apt -y install qtbase5-dev libqt5svg5-dev libqt5websockets5-dev \
-         libqt5opengl5-dev libqt5x11extras5-dev libprotoc-dev
+         libqt5opengl5-dev libqt5x11extras5-dev libprotoc-dev git build-essential cmake
     
 On Fedora:
 
@@ -13,7 +13,7 @@ On Fedora:
 Clone the repository into **~/plotjuggler_ws**:
 
 ```
-git clone https://github.com/facontidavide/PlotJuggler.git ~/plotjuggler_ws/src/PlotJuggler
+git clone https://github.com/VolleyAutomation/PlotJuggler.git ~/plotjuggler_ws/src/PlotJuggler
 cd ~/plotjuggler_ws
 ```
     
